@@ -1,0 +1,45 @@
+{
+	"datas" : [
+		{
+			"airportName" : "김포국제공항",
+			"airportCode" : "GMP",
+			"parkings" [
+				{
+					"pName" : "[상세]예약주차장",
+					"pCode" : "001"
+				},
+				{
+					"pName" : "국내선 제1주차장",
+					"pCode" : "002"
+				},
+				{
+					"pName" : "국내선 제2주차장(일반/예약)",
+					"pCode" : "003"
+				},
+				{
+					"pName" : "국제선주차장",
+					"pCode" : "004"
+				},
+				{
+					"pName" : "화물청사 주차장",
+					"pCode" : "005"
+				}
+			]
+		},
+		{
+			"airportName" : "제주국제공항",
+			"airportCode" : "CJU",
+			"parkings" [
+				{
+					"pName" : "여객",
+					"pCode" : "001"
+				},
+				{
+					"pName" : "화물",
+					"pCode" : "002"
+				},
+			]
+		},
+		
+	]
+}

@@ -1,0 +1,12 @@
+
+open-api: 
+  key: OpenApiKey
+
+server: 
+  port: 8082
+
+logging: 
+  level: 
+    root: OFF # OFF or INFO
+    org.springframework.web: DEBUG
+    com.kdk: DEBUG
