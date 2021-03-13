@@ -24,18 +24,14 @@ public class RedisManageUtil {
   }
 
   public boolean setRedisData(String key, Object value) {
-    ValueOperations<String, Object> vop = redisTemplate.opsForValue();
-    boolean result;
-
+    ValueOperations<String, Object> vop = null;
+    boolean result = true;
     try {
-
-      vop.set(key, value);
-      result = true;
-
+    	vop = redisTemplate.opsForValue();
+    	vop.set(key, (String)value);
     } catch (Exception e) {
-      result = false;
+    	result = false;
     }
-
     return result;
   }
 

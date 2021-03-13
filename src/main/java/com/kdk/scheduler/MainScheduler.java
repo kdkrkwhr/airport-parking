@@ -18,7 +18,7 @@ public class MainScheduler {
   @Scheduled(fixedDelay = 1000 * 60)
   public void minuteInsertDataScheduled() throws Exception {
     logger.debug("=== START :: minuteInsertDataScheduled ===");
-    logger.debug("Result :: {}", service.minuteScheduleF(System.currentTimeMillis()));
+    service.minuteScheduleF(System.currentTimeMillis());
     logger.debug("=== END :: minuteInsertDataScheduled ===");
   }
 }
