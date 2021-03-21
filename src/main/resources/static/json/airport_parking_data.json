@@ -3,7 +3,7 @@
 		{
 			"airportName" : "김포국제공항",
 			"airportCode" : "GMP",
-			"parkings" [
+			"parkings" : [
 				{
 					"pName" : "[상세]예약주차장",
 					"pCode" : "001"
@@ -29,7 +29,7 @@
 		{
 			"airportName" : "제주국제공항",
 			"airportCode" : "CJU",
-			"parkings" [
+			"parkings" : [
 				{
 					"pName" : "여객",
 					"pCode" : "001"
