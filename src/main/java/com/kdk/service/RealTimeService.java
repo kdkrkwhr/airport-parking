@@ -84,7 +84,11 @@ public class RealTimeService {
 
     return datas;
   }
-
+  
+  /**
+   * 공항 정보 json 파일의 공항 코드를 받아 API 호출을 진행한다.
+   * @param timestamp ( SYSDATE )
+   */
   public void minuteScheduleF(long timestamp) {
     try {
       JSONArray datas = getAirportJsonArrayDatas();

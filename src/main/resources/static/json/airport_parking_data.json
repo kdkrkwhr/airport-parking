@@ -27,6 +27,28 @@
 			]
 		},
 		{
+			"airportName" : "김해국제공항",
+			"airportCode" : "PUS",
+			"parkings" : [
+				{
+					"pName" : "P1여객주차장",
+					"pCode" : "001"
+				},
+				{
+					"pName" : "P2여객주차장",
+					"pCode" : "002"
+				},
+				{
+					"pName" : "P3여객(화물)주차장",
+					"pCode" : "003"
+				},
+				{
+					"pName" : "P4여객(화물)주차장",
+					"pCode" : "004"
+				}
+			]
+		},
+		{
 			"airportName" : "제주국제공항",
 			"airportCode" : "CJU",
 			"parkings" : [
@@ -37,9 +59,94 @@
 				{
 					"pName" : "화물",
 					"pCode" : "002"
-				},
+				}
 			]
 		},
-		
+		{
+			"airportName" : "대구국제공항",
+			"airportCode" : "TAE",
+			"parkings" : [
+				{
+					"pName" : "일반",
+					"pCode" : "001"
+				},
+				{
+					"pName" : "화물주차장",
+					"pCode" : "002"
+				}
+			]
+		},
+		{
+			"airportName" : "광주공항",
+			"airportCode" : "KWJ",
+			"parkings" : [
+				{
+					"pName" : "제1주차장",
+					"pCode" : "001"
+				},
+				{
+					"pName" : "제2주차장",
+					"pCode" : "002"
+				}
+			]
+		},
+		{
+			"airportName" : "여수공항",
+			"airportCode" : "RSU",
+			"parkings" : [
+				{
+					"pName" : "제1주차장",
+					"pCode" : "001"
+				},
+				{
+					"pName" : "제2주차장",
+					"pCode" : "002"
+				}
+			]
+		},
+		{
+			"airportName" : "울산공항",
+			"airportCode" : "USN",
+			"parkings" : [
+				{
+					"pName" : "일반",
+					"pCode" : "001"
+				}
+			]
+		},
+		{
+			"airportName" : "군산공항",
+			"airportCode" : "KUV",
+			"parkings" : [
+				{
+					"pName" : "일반",
+					"pCode" : "001"
+				}
+			]
+		},
+		{
+			"airportName" : "원주공항",
+			"airportCode" : "WJU",
+			"parkings" : [
+				{
+					"pName" : "일반",
+					"pCode" : "001"
+				}
+			]
+		},
+		{
+			"airportName" : "청주국제공항",
+			"airportCode" : "CJJ",
+			"parkings" : [
+				{
+					"pName" : "제1주차장",
+					"pCode" : "001"
+				},
+				{
+					"pName" : "제2주차장",
+					"pCode" : "002"
+				}
+			]
+		}
 	]
 }
